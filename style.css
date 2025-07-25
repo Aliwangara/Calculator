@@ -32,20 +32,26 @@ body{
 }
 
 #display{
-    border: 1px solid red;
+    border: 2px solid white;
+    border-radius: 5px;
     width: 100%;
     padding: 1.2rem 2rem;
 }
 
 .buttons-container{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     
 }
 
 .buttons-container button{
     /* padding: 1rem; */
-    padding: .5rem .9rem;
-    margin-right: 2px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background-color: inherit;
+    padding: .5rem 1rem;
     margin-bottom: 2px;
+    border-radius: 100px;
 }
