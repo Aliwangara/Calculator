@@ -21,16 +21,19 @@ body {
   width: 300px;
 }
 
-.display-container {
+.display-container input {
   background: #222;
   color: white;
   font-size: 2em;
-  padding: 20px;
+  width: 98%;
+  max-width: 600px;
+  padding: 20px 2px;
   border-radius: 10px;
-  text-align: right;
+  text-align: left;
   margin-bottom: 15px;
   height: 60px;
-  overflow-x: auto;
+  overflow-x:hidden;
+  
 }
 
 .buttons-container {
